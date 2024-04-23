@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NextAI Chatbot
 
-## Getting Started
+This project is a showcase of integration between Next.js, OpenAI's powerful language models, Vercel's seamless deployment capabilities, and Tailwind CSS for a sleek user interface.
 
-First, run the development server:
+## Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+The NextAI Chatbot is designed to provide users with an engaging conversational experience. By leveraging OpenAI's advanced AI, the chatbot understands and generates human-like text, making each interaction smooth and natural.
+
+<p align="center">
+  <img src="https://github.com/NigelMarshal/next-chat-bot/assets/11574237/f50db868-529e-4fe5-942e-f6b02c84af88" alt="Screenshot 2024-04-23 at 1 46 49 PM">
+</p>
+
+<p align="center">
+  <img src="https://github.com/NigelMarshal/next-chat-bot/assets/11574237/92f2b7cb-134a-40ce-aff9-d5c33bc63d91" alt="demo" />
+</p>
+
+## Built With:
+
+- **Next.js**: A React framework for building web applications with server-side rendering and route pre-fetching.
+- **OpenAI**: The AI engine driving conversational intelligence.
+- **Vercel AI SDK**: For effortless scaling and deployment.
+- **Tailwind CSS**: For modern and responsive styling.
+
+## Local Deployment Guide
+
+1. Clone the repository to your local machine and navigate to the `next-chat-bot` directory.
+
+2. Run the following command to install the necessary libraries and frameworks:
+
+
+```
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Create a local .env file in the root directory: `.env.local`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+4. Add your OpenAI API key to the newly created file
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```
+OPENAI_API_KEY=yourApiKeyGoesHere
+```
 
-## Learn More
+5. Start the dev server
 
-To learn more about Next.js, take a look at the following resources:
+```
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+6. View the app live locally on [http://localhost:3000](http://localhost:3000)
